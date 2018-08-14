@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element required="false" type="boolean" scope="locale">
+            <name>sendMail</name>
+            <label lang="de">Email verschicken</label>
+            <label lang="en">Send Mail</label>
+            <value>1</value>
+            <description lang="de">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.</description>
+            <description lang="en">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.</description>
+        </element>
+        <element required="false" type="text" scope="locale">
+            <name>recipient</name>
+            <label lang="de">E-Mail Empfänger</label>
+            <label lang="en">Email Recipient</label>
+            <value>sample@example.com</value>
+            <description lang="de">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.</description>
+            <description lang="en">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.</description>
+        </element>
+        <element required="false" type="boolean" scope="locale">
+            <name>deactivateEmptyCategories</name>
+            <label lang="de">Leere Kategorien deaktivieren</label>
+            <label lang="en">Deactivate empty categories</label>
+            <value>0</value>
+            <description lang="de">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.</description>
+            <description lang="en">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.</description>
+        </element>    </elements>
+</config>

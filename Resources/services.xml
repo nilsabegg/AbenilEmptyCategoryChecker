@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+
+
+
+<container xmlns="http://symfony.com/schema/dic/services"
+
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+
+
+    <services>
+
+        <!-- @todo Add your services here -->
+
+
+
+        <service id="abenil_empty_category_checker.subscriber.cron" class="AbenilEmptyCategoryChecker\Subscriber\Cron">
+
+            <tag name="shopware.event_subscriber" />
+
+            <argument type="service" id="service_container" />
+
+        </service>
+
+
+
+
+
+    </services>
+
+</container>
